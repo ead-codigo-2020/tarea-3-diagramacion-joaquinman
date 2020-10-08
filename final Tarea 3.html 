@@ -45,9 +45,9 @@
 <section  class = " cifras " >
     <div > cifras destacadas </div >
     <div >
-    <div  class = " primeracifra " > <img src = " "  alt = " "> 19.934.166 </div >
-    <div  class = " segundacifra " > <i class="	fa fa-ship"> </i>    +75.000 </div >
-    <div  class = " terceracifra " > <img src = " "  alt = " "> 8.157.000 </div >
+    <div  class = " primeracifra " > <i class="fa fa-truck"></i> 19.934.166 </div >
+    <div  class = " segundacifra " > <i class="	fa fa-ship"> </i> +75.000 </div >
+    <div  class = " terceracifra " > <i class="fas fa-seedling"></i> 8.157.000 </div >
     </div >
 </section>
 
