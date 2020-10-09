@@ -161,6 +161,62 @@
     columna de cuadrícula : 4 / tramo 5 ;
     fila de cuadrícula : 3 / tramo 4 ;
 }
+. sostenibilidad-parrafo {
+    color : blanco;
+    peso de fuente : 400 ;
+    espaciado entre letras : 2 px ;
+    columna de cuadrícula : 2 / tramo 5 ;
+    fila de cuadrícula : 4 / tramo 5 ;
+    alinear-contenido : centro;
+}
+. sostenibilidad-link {
+    color : blanco;
+    peso de fuente : 400 ;
+    espaciado entre letras : 2 px ;
+    alinear-contenido : centro;
+    columna de cuadrícula : 2 / tramo 5 ;
+    fila de cuadrícula : 5 / tramo 6 ;
+}
+. sostenibilidad-a {
+    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.644 );
+    text-transform : mayúsculas;
+}
+. horizonte-gris {
+    color de fondo : gainboro;
+    acolchado : 5 % ;
+}
+. destacado-titulo {
+    color : negro;
+    text-transform : mayúsculas;
+    peso de fuente : 300 ;
+}
+. destacado {
+    color de fondo : blanco;
+    acolchado superior : 3 % ;
+    fondo acolchado : 3 % ;
+}
+. destacamos-imagen {
+    ancho : 30 % ;
+    altura : 70 % ;
+    alinear-contenido : flex-start;
+    objeto de ajuste : cubierta;
+    alineación de texto : derecha;
+    flotar : izquierda;
+    margen superior : -3 % ;
+    margen inferior : -3 % ;
+    margen derecho : 5 % ;
+}
+. prensa-cuerpo {
+    color de fondo : blanco;
+    acolchado superior : 3 % ;
+    fondo acolchado : 3 % ;    
+}
+prensa-imagen {
+    flotar : izquierda;
+    ancho : 0,5 % ;
+    altura : 0,3 % ;
+    objeto de ajuste : cubierta;
+}
 . sostenibilidad-bajada {
     color : blanco;
     peso de fuente : 400 ;
