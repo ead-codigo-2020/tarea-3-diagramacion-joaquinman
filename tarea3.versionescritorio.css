@@ -217,60 +217,6 @@ prensa-imagen {
     altura : 0,3 % ;
     objeto de ajuste : cubierta;
 }
-. sostenibilidad-bajada {
-    color : blanco;
-    peso de fuente : 400 ;
-    espaciado entre letras : 2 px ;
-}
-. sostenibilidad-parrafo {
-    color : blanco;
-    peso de fuente : 400 ;
-    espaciado entre letras : 2 px ;
-}
-. sostenibilidad-link {
-    color : blanco;
-    peso de fuente : 400 ;
-    text-transform : mayúsculas;
-    espaciado entre letras : 2 px ;
-    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.644 );
-    acolchado : 1 % ;   
-}
-. horizonte-gris {
-    color de fondo : gainboro;
-    acolchado : 5 % ;
-}
-. destacado-titulo {
-    color : negro;
-    text-transform : mayúsculas;
-    peso de fuente : 300 ;
-}
-. destacado {
-    color de fondo : blanco;
-    acolchado superior : 3 % ;
-    fondo acolchado : 3 % ;
-}
-. destacamos-imagen {
-    ancho : 30 % ;
-    altura : 70 % ;
-    alinear-contenido : flex-start;
-    objeto de ajuste : cubierta;
-    alineación de texto : derecha;
-    flotar : izquierda;
-    margen superior : -3 % ;
-    margen inferior : -3 % ;
-    margen derecho : 5 % ;
-}
-. prensa-cuerpo {
-    color de fondo : blanco;
-    acolchado superior : 3 % ;
-    fondo acolchado : 3 % ;    
-}
-prensa-imagen {
-    flotar : izquierda;
-    ancho : 0,5 % ;
-    altura : 0,3 % ;
-    objeto de ajuste : cubierta;
-}
 . prensa-escritura {
     flotar : derecha;
 }
