@@ -132,6 +132,14 @@
     fila de cuadrícula : 2 / tramo 3 ;
     alineación de texto : centro;
 }
+. sostenibilidad-bajada {
+    color : blanco;
+    peso de fuente : 400 ;
+    espaciado entre letras : 2 px ;
+    columna de cuadrícula : 2 / tramo 5 ;
+    fila de cuadrícula : 2 / tramo 3 ;
+    alinear-contenido : centro;
+}
 . imagen-sostenibilidad-1 {
     índice z : 2 ;
     pantalla : cuadrícula;
