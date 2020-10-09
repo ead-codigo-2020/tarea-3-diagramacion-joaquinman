@@ -32,7 +32,7 @@
     fila de cuadrícula : 1 / tramo 2 ;
 }
 . cabecera-menu-superior {
-    índice z : 1 ;
+    índice z : 2 ;
     color : blanco;
     text-transform : mayúsculas;
     tamaño de fuente : 15 px ;
@@ -40,9 +40,95 @@
     espaciado entre letras : 2 pt ;
     espaciado entre palabras : 10 pt ;
     estilo de lista : ninguno;
-    pantalla : bloque en línea;
     ancho : 10 % ;
+    columna de cuadrícula : 5 / tramo 6 ;
+    fila de cuadrícula : 3 / tramo 4 ;
 }
+. cabecera-menu-superior-items {
+    acolchado : 2 % ;
+    pantalla : en línea;
+} 
+. titulo-principal {
+    tamaño de fuente : 36 px ;
+    color : blanco;
+    índice z : 1 ;
+    acolchado : 2 % ;
+    columna de cuadrícula : 2 ;
+    fila de cuadrícula : 5 ;
+}
+. cabecera-link {
+    columna de cuadrícula : 4 ;
+    fila de cuadrícula : 4 / tramo 5 ;
+}
+. cabecera-menu-inferior {
+    columna de cuadrícula : 2 / tramo 5 ;
+    fila de cuadrícula : 5 / tramo 6 ;
+    índice z : 1 ;
+    peso de fuente : 300 ;
+    margen superior : -30px;
+    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.651 );
+}
+. cabecera-menu-inferior-items {
+    estilo de lista : ninguno;
+    text-transform : mayúsculas;
+    color : blanco;
+    tamaño de fuente : 12 px ;
+    pantalla : en línea;
+}
+. cifras-destacadas-horizonte {
+    pantalla : cuadrícula;
+    columnas de plantilla de cuadrícula : 100 px automático 100 px ;
+    rejilla-plantilla-filas : auto auto auto 50 px ;
+    color de fondo : blanco;
+}
+. cifras-destacadas-titulo {
+    color : gainboro;
+    text-transform : mayúsculas;
+    columna de cuadrícula : 2 / tramo 3 ;
+    fila de cuadrícula : 1 / tramo 2 ;
+    alineación de texto : centro;
+    margen : 5 % ;
+}
+. cifras-destacadas {
+    columna de cuadrícula : 2 / tramo 3 ;
+    fila de cuadrícula : 2 / tramo 4 ;
+    margen : 20 px ;
+}
+. cifras-destacadas-cifra {
+    color : azul cielo;
+    peso de fuente : 700 ;
+    tamaño de fuente : xx-grande;
+    espaciado entre letras : 2 pt ;
+    espaciado entre palabras : 10 pt ;
+    fila de cuadrícula : 2 / tramo 3 ;
+    acolchado : 5 % ;
+}
+. cifras-destacadas-que-contenedor {
+    fila de cuadrícula : 3 / tramo 4 ;
+    acolchado : 5 % ;
+}
+. cifras-destacadas-que {
+    text-transform : mayúsculas;
+    color : gainboro;
+    peso de fuente : 400 ;
+    espaciado entre letras : 2 pt ;
+    espaciado entre palabras : 10 pt ;
+}
+. sostenibilidad-horizonte {
+    background-image: url( fotos/fotohorizonteatardecer.jpg);
+    repetición de fondo : no repetición;
+    ancho : 100 % ;
+    acolchado : 5 % ;
+}
+
+
+
+
+
+
+
+
+
 . h1 {
     tamaño de fuente : 36 px ;
     color : blanco;
