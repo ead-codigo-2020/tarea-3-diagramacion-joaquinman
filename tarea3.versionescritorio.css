@@ -1,36 +1,35 @@
 
-cuerpo {
+. cuerpo {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     margen : 0 % ;
 }
+. cabecera {
+    pantalla : cuadrícula;
+    columnas de plantilla de cuadrícula : 100 px  100 px automático 250 px  100 px ;
+    rejilla-plantilla-filas : 30 px  50 px auto 150 px  60 px ;
+    background-image: url(fotos/fotopuertodesdelaaltura.jpg);
+    repetición de fondo : no repetición;
+}
 . logo-cabecera {
-    flotar : izquierda;
-    ancho : 10 % ;
-    margen derecho : 250 px ;
-    margen izquierdo : 75 px ;
     índice z : 1 ;
+    columna de cuadrícula : 2 ;
+    fila de cuadrícula : 1 ;
+    objeto de ajuste : cubierta;
+    ancho : 150 px ;
+    altura : 80 px ;
 }
 . barra-negra-superior {
-    tamaño de fuente : 15 px ;
+    tamaño de fuente : 12 px ;
     peso de fuente : 400 ;
     color de fondo : negro;
     color : blanco;
     text-transform : mayúsculas;
-    acolchado : 0,2 % ;
-    altura : 30 px ;
+    padding-left : 400 px ;
+    padding-top : 10 px ;
     espaciado entre letras : 2 pt ;
     espaciado entre palabras : 10 pt ;
-    margen inferior : -20px;
-}
-. cabecera {
-    background-image: url(fotos/fotopuertodesdelaaltura.jpg);
-    ajuste de objeto : heredar;
-    repetición de fondo : no repetición;
-    acolchado : 20 % ;
-    ancho : 100 % ;
-    índice z : -1 ;
-    posición : relativa;
-    tamaño de fondo : 100 % ;
+    columna de cuadrícula : 1 / tramo 6 ;
+    fila de cuadrícula : 1 / tramo 2 ;
 }
 . cabecera-menu-superior {
     índice z : 1 ;
