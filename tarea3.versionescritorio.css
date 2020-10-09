@@ -1,10 +1,8 @@
 
-* {
-body {
-    font-family: - -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-    font-size : 25 px ;
-    background-color : # ffffff ;
-} 
+cuerpo {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margen : 0 % ;
+}
 . logo-cabecera {
     flotar : izquierda;
     ancho : 10 % ;
@@ -86,78 +84,79 @@ body {
     peso de fuente : 400 ;
     espaciado entre letras : 2 pt ;
     espaciado entre palabras : 10 pt ;
-    . sostenibilidad-horizonte {
-        imagen de fondo : url (ddc / horizonteplayaatardecer.jpg);
-        repetición de fondo : no repetición;
-        background-blend-mode : exclusión;
-        ancho : 100 % ;
-        acolchado : 5 % ;
-    }
-    . imagen-sostenibilidad {
-        tamaño de caja: caja de contenido;
-        ancho : 300 px ;
-        altura : 200 px ;
-        objeto de ajuste : cubierta;
-    }
-    . sostenibilidad-titulo {
-        color : blanco;
-        text-transform : mayúsculas;
-        peso de fuente : 300 ;
-    }
-    . sostenibilidad-bajada {
-        color : blanco;
-        peso de fuente : 400 ;
-        espaciado entre letras : 2 px ;
-    }
-    . sostenibilidad-parrafo {
-        color : blanco;
-        peso de fuente : 400 ;
-        espaciado entre letras : 2 px ;
-    }
-    . sostenibilidad-link {
-        color : blanco;
-        peso de fuente : 400 ;
-        text-transform : mayúsculas;
-        espaciado entre letras : 2 px ;
-        color de fondo : rgba ( 0 ,  0 ,  0 ,  0.644 );
-        acolchado : 1 % ;   
-    }
-    . horizonte-gris {
-        color de fondo : gainboro;
-        acolchado : 5 % ;
-    }
-    . destacado-titulo {
-        color : negro;
-        text-transform : mayúsculas;
-        peso de fuente : 300 ;
-    }
-    . destacado {
-        background-color : blanco;
-        acolchado superior : 3 % ;
-        fondo acolchado : 3 % ;
-    }
-    . destacamos-imagen {
-        ancho : 30 % ;
-        altura : 70 % ;
-        alinear-contenido : flex-start;
-        objeto de ajuste : cubierta;
-        alineación de texto : derecha;
-        flotar : izquierda;
-        margen superior : -3 % ;
-        margen inferior : -3 % ;
-        margen derecho : 5 % ;
-    }
-    . prensa-cuerpo {
-        color de fondo : blanco;
-        acolchado superior : 3 % ;
-        fondo acolchado : 3 % ;    
-    }
-    prensa-imagen {
-        flotar : izquierda;
-        ancho : 0,5 % ;
-        altura : 0,3 % ;
-        objeto de ajuste : cubierta;
-    }
-    . prensa-escritura {
-        flotar : derecha;
-    }
+
+. sostenibilidad-horizonte {
+    background-image: url(fotos/fotohorizonteatardecer.jpg); 
+    repetición de fondo : no repetición;
+    background-blend-mode : exclusión;
+    ancho : 100 % ;
+    acolchado : 5 % ;
+}
+. imagen-sostenibilidad {
+    tamaño de caja: caja de contenido;
+    ancho : 300 px ;
+    altura : 200 px ;
+    objeto de ajuste : cubierta;
+}
+. sostenibilidad-titulo {
+    color : blanco;
+    text-transform : mayúsculas;
+    peso de fuente : 300 ;
+}
+. sostenibilidad-bajada {
+    color : blanco;
+    peso de fuente : 400 ;
+    espaciado entre letras : 2 px ;
+}
+. sostenibilidad-parrafo {
+    color : blanco;
+    peso de fuente : 400 ;
+    espaciado entre letras : 2 px ;
+}
+. sostenibilidad-link {
+    color : blanco;
+    peso de fuente : 400 ;
+    text-transform : mayúsculas;
+    espaciado entre letras : 2 px ;
+    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.644 );
+    acolchado : 1 % ;   
+}
+. horizonte-gris {
+    color de fondo : gainboro;
+    acolchado : 5 % ;
+}
+. destacado-titulo {
+    color : negro;
+    text-transform : mayúsculas;
+    peso de fuente : 300 ;
+}
+. destacado {
+    background-color : blanco;
+    acolchado superior : 3 % ;
+    fondo acolchado : 3 % ;
+}
+. destacamos-imagen {
+    ancho : 30 % ;
+    altura : 70 % ;
+    alinear-contenido : flex-start;
+    objeto de ajuste : cubierta;
+    alineación de texto : derecha;
+    flotar : izquierda;
+    margen superior : -3 % ;
+    margen inferior : -3 % ;
+    margen derecho : 5 % ;
+}
+. prensa-cuerpo {
+    color de fondo : blanco;
+    acolchado superior : 3 % ;
+    fondo acolchado : 3 % ;    
+}
+prensa-imagen {
+    flotar : izquierda;
+    ancho : 0,5 % ;
+    altura : 0,3 % ;
+    objeto de ajuste : cubierta;
+}
+. prensa-escritura {
+    flotar : derecha;
+}    
