@@ -120,6 +120,49 @@
     ancho : 100 % ;
     acolchado : 5 % ;
 }
+. imagen-sostenibilidad {
+    tamaño de caja: caja de contenido;
+    ancho : 300 px ;
+    altura : 200 px ;
+    objeto de ajuste : cubierta;
+}
+. sostenibilidad-titulo {
+    color : blanco;
+    text-transform : mayúsculas;
+    peso de fuente : 300 ;
+}
+. sostenibilidad-bajada {
+    color : blanco;
+    peso de fuente : 400 ;
+    espaciado entre letras : 2 px ;
+}
+. sostenibilidad-parrafo {
+    color : blanco;
+    peso de fuente : 400 ;
+    espaciado entre letras : 2 px ;
+}
+. sostenibilidad-link {
+    color : blanco;
+    peso de fuente : 400 ;
+    text-transform : mayúsculas;
+    espaciado entre letras : 2 px ;
+    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.644 );
+    acolchado : 1 % ;   
+}
+. horizonte-gris {
+    color de fondo : gainboro;
+    acolchado : 5 % ;
+}
+. destacado-titulo {
+    color : negro;
+    text-transform : mayúsculas;
+    peso de fuente : 300 ;
+}
+. destacado {
+    color de fondo : blanco;
+    acolchado superior : 3 % ;
+    fondo acolchado : 3 % ;
+}
 
 
 
