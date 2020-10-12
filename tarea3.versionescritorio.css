@@ -186,27 +186,26 @@ b {
     acolchado : 10 % ;
 }
 .sostenibilidad-t {
-    color : blanco;
-    alineación de texto : centro;    
+    color:white;
+    text-align:center;    
 }
 .sostenibilidad-bajada {
-    tamaño de fuente : 15 px ;
-    color : blanco;
-    espaciado entre letras : 2 px ;
-    alineación de texto : centro;
-    claro : ambos;
-    ancho : 70 ch ;
-    margen inferior : 5 % ;
+    font-size:15px;
+    color:white;
+    letter-spacing:2px;
+    text-align:center;
+    clear:both;
+    width:70ch;
+    margin-bottom: 5 % ;
 }
 .contenido-sostenibilidad {
-    posición : relativa;
-    pantalla : flex;
-    dirección flexible : fila;
+    position:relative;
+    display:flex;
+    flex-direction:row;
 }
 .sostenibilidad {
     width:20%;
     height:33,33%;
-
 }
 .sostenibilidad  figcaption {
     color:white;
@@ -226,8 +225,8 @@ b {
     width:100%;
 }
 .sostenibilidad-link {
-    margen : 5 % ;
-    alinear-contenido : centro;
+    margin:5%;
+    align-content:center;
 }
 .sostenibilidad-link  a {
     decoración de texto : ninguna;
