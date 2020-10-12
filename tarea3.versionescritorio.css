@@ -3,34 +3,34 @@
     font-family:-apple-system, BlinkMacSystemFont,'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell,'Open Sans','Helvetica Neue',sans-serif
 }
 :root {
-    --celeste-color :rgb(48,209,242)
+    --celeste-color:rgb(48,209,242)
 }
 .title {
-    text-transform:mayúsculas;
+    text-transform:capitalize;
     font-weight:300;
     font-size:24px;
 }
 .title-2 {
     text-transform:capitalize;
-    peso de fuente :300;
-    tamaño de fuente :20px;
+    font-weight:300;
+    font-size:20px;
 }
 .enlace {
     color:var(--celeste-color);
-    peso de fuente:700;
+    font-weight:700;
 }
 .fecha {
-    color:gris;
-    tamaño de fuente :12px;
-    text-transform : mayúsculas;
+    color:grey;
+    font-size:12px;
+    text-transform :capitalize;
 }
 .cabecera-conteiner {
-    pantalla:cuadrícula;
+    pantalla:grid;
     columnas de plantilla de cuadrícula:1fr 15% 70% 1fr;
     filas-plantilla-cuadrícula:7% 79% 14%;
-    rejilla-columna:1/5;
-    rejilla-fila :1/4;
+    grid-column:1/5;
+    row-rack:1/4;
     background-image: url(fotos/)
-    ajuste de objeto:contener;
-    tamaño de fondo:100%automático;
+    ajuste de objeto:container;
+    background-size:100%auto;
 }
