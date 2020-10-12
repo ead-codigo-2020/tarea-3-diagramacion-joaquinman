@@ -65,7 +65,7 @@
 }
 .buscador {
     grid-row:3/4;
-    justify:right;
+    justify-self:right;
     width:300px;
     padding:1%;
     max-height:20px;
@@ -73,12 +73,12 @@
 .buscador-menu {
     background:none;
     border:none;
-    border-bottom-style:1px;
+    border-bottom-style:1px white;
     color:white;
 }
 .menu-superior {
     grid-column:3/4;
-    grid-row:2 ;
+    grid-row:2;
     display:flex;
     padding-top:1%;
     align-self:top;
@@ -92,16 +92,16 @@
     justify-content:flex-end;
     flex-wrap:wrap;
 }
-.menu-superior-items  a {
+.menu-superior-items a {
     text-transform:uppercase;
-    letter-spacing:2px;
+    word-spacing:2px;
     color:white;
     text-decoration:none;
 }
 .cabecera-menu-inferior {
     grid-column:1/5;
     grid-row:3/4;
-    text-align:center;
+    align-content:center;
     display:flex;
     flex-direction:row;
     z-index:2;
@@ -111,9 +111,9 @@
     grid-column:2/4;
     list-style:none;
     padding:2%;
-    padding-background:3%;
+    padding-bottom:3%;
 }
-.cabecera-menu-inferior-items  a {
+.cabecera-menu-inferior-items a {
     color:white;
     font-size:12px;
     font-weight:700;
@@ -130,7 +130,7 @@
     grid-template-rows:2fr 2fr 1fr;
     grid-column:2/4;
     grid-row:2/4;
-    background-position:4%;
+    padding-bottom:4%;
 }
 .titulacion  h1 {
     clear:both;
@@ -165,15 +165,15 @@ b {
     padding-right:1%;
     padding-left:1%;
 }
-.cifra  i {
-    color:grey;
+.cifra i {
+    color: var(--gris-oscuro);
 }
 .cifra {
-    font-size:30px;
-    color:var(--light-blue-color);
+    font-size: 30px;
+    color: var(--celeste-color);
 }
 .cifra-2 {
-    color:grey;
+    color: var(--gris-oscuro);
 }
 .sostenibilidad-horizonte {
     width:100 %;
