@@ -27,10 +27,218 @@
 .cabecera-conteiner {
     pantalla:grid;
     columnas de plantilla de cuadrícula:1fr 15% 70% 1fr;
-    filas-plantilla-cuadrícula:7% 79% 14%;
+    grid-:7% 79% 14%;
     grid-column:1/5;
     row-rack:1/4;
-    background-image: url(fotos/)
+    background-image:url 
     ajuste de objeto:container;
     background-size:100%auto;
+}
+.logo-cabecera {
+    columna de cuadrícula : 2 ;
+    fila de cuadrícula : 1 ;
+    índice z : 2 ;
+    ancho : 70 % ;
+}
+.datos-busqueda {
+    color de fondo : negro;
+    rejilla-columna : 1 / 5 ;
+    rejilla-fila : 1 / 2 ;
+    color : blanco;
+    tamaño de fuente : 12 px ;
+    pantalla : flex;
+    padding-left : 20 % ;
+    fondo acolchado : 0,1 % ;
+}
+.lista-datos-items {
+    rejilla-columna : 3 / 4 ;
+    pantalla : flex;
+    estilo de lista : ninguno;
+    espaciado entre letras : 2 px ;
+    espaciado entre palabras : 5 px ;
+    margen derecho : 10 % ;
+    text-transform : mayúsculas;
+    pantalla : flex;
+    dirección flexible : fila;
+    envoltura flexible : envoltura;
+}
+.buscador {
+    rejilla-columna : 3 / 4 ;
+    justificarse : correcto;
+    ancho : 300 px ;
+    acolchado : 1 % ;
+    altura máxima : 20 px ;
+}
+.buscador-menu {
+    fondo : ninguno;
+    borde : ninguno;
+    borde inferior : 1 px blanco;
+    color : blanco;
+}
+.menu-superior {
+    rejilla-columna : 3 / 4 ;
+    fila de cuadrícula : 2 ;
+    pantalla : flex;
+    acolchado superior : 1 % ;
+    align-self : top;
+    padding-left : 55 % ;
+}
+.menu-superior-items {
+    acolchado : 1 % ;
+    estilo de lista : ninguno;
+    pantalla : flex;
+    dirección flexible : fila;
+    justificar-contenido : flex-end;
+    envoltura flexible : envoltura;
+}
+.menu-superior-items  a {
+    text-transform : mayúsculas;
+    espaciado entre palabras : 2 px ;
+    color : blanco;
+    decoración de texto : ninguna;
+}
+.cabecera-menu-inferior {
+    rejilla-columna : 1 / 5 ;
+    rejilla-fila : 3 / 4 ;
+    alinear-contenido : centro;
+    pantalla : flex;
+    dirección flexible : fila;
+    índice z : 2 ;
+    padding-left : 1 % ;
+}
+.cabecera-menu-inferior-items {
+    rejilla-columna : 2 / 4 ;
+    estilo de lista : ninguno;
+    acolchado : 2 % ;
+    fondo acolchado : 3 % ;
+}
+.cabecera-menu-inferior-items  a {
+    color : blanco;
+    tamaño de fuente : 12 px ;
+    peso de fuente : 700 ;
+    text-transform : mayúsculas;
+    decoración de texto : ninguna;
+    alineación de texto : izquierda;
+    margen : 5 % ;
+    espaciado entre letras : 2 px ;
+    color del borde : rgba ( 255 ,  255 ,  255 ,  0.705 );
+}
+.titulacion {
+    pantalla : cuadrícula;
+    columnas de plantilla de cuadrícula : 1 fr  50 %  25 %  300 px  1 fr ;
+    rejilla-plantilla-filas : 2 fr  2 fr  1 fr ;
+    rejilla-columna : 2 / 4 ;
+    rejilla-fila : 2 / 4 ;
+    fondo acolchado : 4 % ;
+}
+.titulacion  h1 {
+    claro : ambos;
+    color : blanco;
+    rejilla-columna : 2 / 3 ;
+    rejilla-fila : 2 / 3 ;
+    tamaño de fuente : 3,5 em ;
+    peso de fuente : 400 ;
+}
+b {
+    peso de fuente : 700 ;
+}
+.cabecera-link {
+    color : blanco;
+    claro : ambos;
+    rejilla-columna : 4 / 5 ;
+    rejilla-fila : 3 / 5 ;
+}
+.cifras-destacadas-container {
+    acolchado : 3 % ;
+    ancho : 100 % ;
+    alinear-yo : centro;
+}
+.cifras-destacadas {
+    color : gris;
+    alineación de texto : centro;
+}
+.tabla-cifra {
+    alinear-yo : centro;
+}
+.tabla-cifra  td {
+    padding-right : 1 % ;
+    padding-left : 1 % ;
+}
+.cifra  i {
+    color : gris;
+}
+.cifra {
+    tamaño de fuente : 30 px ;
+    color : var ( --celeste-color );
+}
+. cifra-2 {
+    color : gris;
+}
+.sostenibilidad-horizonte {
+    ancho : 100 % ;
+    altura : 100 % ;
+    backdrop-filter : url (commonfilters.svg # filter);
+    imagen de fondo : url (ddc / horizonteplayaatardecer.jpg);
+    repetición de fondo : no repetición;
+    filtro de fondo : desenfoque ( 5 px );
+    objeto de ajuste : cubierta;
+    tamaño de fondo : 100 % automático;
+    acolchado : 10 % ;
+}
+.sostenibilidad-t {
+    color : blanco;
+    alineación de texto : centro;    
+}
+.sostenibilidad-bajada {
+    tamaño de fuente : 15 px ;
+    color : blanco;
+    espaciado entre letras : 2 px ;
+    alineación de texto : centro;
+    claro : ambos;
+    ancho : 70 ch ;
+    margen inferior : 5 % ;
+}
+.contenido-sostenibilidad {
+    posición : relativa;
+    pantalla : flex;
+    dirección flexible : fila;
+}
+.sostenibilidad {
+    width:20%;
+    height:33,33%;
+
+}
+.sostenibilidad  figcaption {
+    color:white;
+    text-align:left;
+    font-size:12px;
+    letter-spacing:2px;
+    clear:both;
+    margin-top:3%;
+    width: ;:100%;
+    height:1fr;
+}
+.imagen-sostenibilidad {
+    object-fit:contain;
+    object-position:center;
+    align-self:top;
+    height:2fr;
+    width:100%;
+}
+.sostenibilidad-link {
+    margen : 5 % ;
+    alinear-contenido : centro;
+}
+.sostenibilidad-link  a {
+    decoración de texto : ninguna;
+    text-transform : mayúsculas;
+    color : blanco;
+    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.699 );
+    acolchado : 3 % ;
+    margen : 3 % ;
+}
+.comunicaciones-container {
+    color de fondo : # e4e6e8 ;
+    ancho : 100 % ;
+    altura : 100 % ;
 }
