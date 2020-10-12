@@ -149,41 +149,41 @@ b {
     rejilla-fila : 3 / 5 ;
 }
 .cifras-destacadas-container {
-    acolchado : 3 % ;
-    ancho : 100 % ;
-    alinear-yo : centro;
+    padding:3%;
+    width:100%;
+    align-self:center;
 }
 .cifras-destacadas {
-    color : gris;
-    alineación de texto : centro;
+    color:grey;
+    text-align:center;
 }
 .tabla-cifra {
-    alinear-yo : centro;
+    align-self:center;
 }
 .tabla-cifra  td {
-    padding-right : 1 % ;
-    padding-left : 1 % ;
+    padding-right:1%;
+    padding-left:1%;
 }
 .cifra  i {
-    color : gris;
+    color:grey;
 }
 .cifra {
-    tamaño de fuente : 30 px ;
-    color : var ( --celeste-color );
+    font-size:30px;
+    color:var(--light-blue-color);
 }
 . cifra-2 {
-    color : gris;
+    color:grey;
 }
 .sostenibilidad-horizonte {
-    ancho : 100 % ;
-    altura : 100 % ;
-    backdrop-filter : url (commonfilters.svg # filter);
-    imagen de fondo : url (ddc / horizonteplayaatardecer.jpg);
-    repetición de fondo : no repetición;
-    filtro de fondo : desenfoque ( 5 px );
-    objeto de ajuste : cubierta;
-    tamaño de fondo : 100 % automático;
-    acolchado : 10 % ;
+    width:100 %;
+    height:100 %;
+    backdrop-filter:url(commonfilters.svg#filter);
+    background-image: url(fotos/);
+    background-repeat:no-repeat;
+    filtro-de-fondo :blur(5px);
+    object-fit:cover;
+    background-size: 100%auto;
+    padding:10%;
 }
 .sostenibilidad-t {
     color:white;
@@ -229,15 +229,15 @@ b {
     align-content:center;
 }
 .sostenibilidad-link  a {
-    decoración de texto : ninguna;
-    text-transform : mayúsculas;
-    color : blanco;
-    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.699 );
-    acolchado : 3 % ;
-    margen : 3 % ;
+    text-decoration:none;
+    text-transform:capitalize;
+    color:white;
+    background-color:rgba(0,0,0,0.699);
+    padding:3%;
+    margin:3%;
 }
 .comunicaciones-container {
-    color de fondo : # e4e6e8 ;
-    ancho : 100 % ;
-    altura : 100 % ;
+    background-color:#e4e6e8;
+    width:100%;
+    height:100%;
 }
