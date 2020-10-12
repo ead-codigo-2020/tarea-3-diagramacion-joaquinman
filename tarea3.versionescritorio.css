@@ -42,8 +42,8 @@
 }
 .datos-busqueda {
     background-color:black;
-    rejilla-columna:1/5;
-    rejilla-fila:1/2;
+    grid-column:1/5;
+    break-inside:1/2;
     color:white;
     font-size:12px;
     display:flex;
