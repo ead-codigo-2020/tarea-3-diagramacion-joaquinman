@@ -1,222 +1,36 @@
-. cuerpo {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+.body {
+    margin:0%;
+    font-family:-apple-system, BlinkMacSystemFont,'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell,'Open Sans','Helvetica Neue',sans-serif
 }
-. cabecera {
-    pantalla : cuadrícula;
-    columnas de plantilla de cuadrícula : 100 px  100 px automático 250 px  100 px ;
-    rejilla-plantilla-filas : 30 px  50 px auto 150 px  60 px ;
-    background-image: url(fotos/fotopuertodesdelaaltura.jpg);
-    repetición de fondo : no repetición;
+:root {
+    --celeste-color :rgb(48,209,242)
 }
-. logo-cabecera {
-    índice z : 1 ;
-    columna de cuadrícula : 2 ;
-    fila de cuadrícula : 1 ;
-    objeto de ajuste : cubierta;
-    ancho : 150 px ;
-    altura : 80 px ;
+.title {
+    text-transform:mayúsculas;
+    font-weight:300;
+    font-size:24px;
 }
-. barra-negra-superior {
-    tamaño de fuente : 12 px ;
-    peso de fuente : 400 ;
-    color de fondo : negro;
-    color : blanco;
-    text-transform : mayúsculas;
-    padding-left : 400 px ;
-    padding-top : 10 px ;
-    espaciado entre letras : 2 pt ;
-    espaciado entre palabras : 10 pt ;
-    columna de cuadrícula : 1 / tramo 6 ;
-    fila de cuadrícula : 1 / tramo 2 ;
+.title-2 {
+    text-transform:capitalize;
+    peso de fuente :300;
+    tamaño de fuente :20px;
 }
-. cabecera-menu-superior {
-    índice z : 2 ;
-    color : blanco;
-    text-transform : mayúsculas;
-    tamaño de fuente : 15 px ;
-    peso de fuente : 300 ;
-    espaciado entre letras : 2 pt ;
-    espaciado entre palabras : 10 pt ;
-    estilo de lista : ninguno;
-    ancho : 10 % ;
-    columna de cuadrícula : 5 / tramo 6 ;
-    fila de cuadrícula : 3 / tramo 4 ;
+.enlace {
+    color:var(--celeste-color);
+    peso de fuente:700;
 }
-. cabecera-menu-superior-items {
-    acolchado : 2 % ;
-    pantalla : en línea;
-} 
-. titulo-principal {
-    tamaño de fuente : 36 px ;
-    color : blanco;
-    índice z : 1 ;
-    acolchado : 2 % ;
-    columna de cuadrícula : 2 ;
-    fila de cuadrícula : 5 ;
-}
-. cabecera-link {
-    columna de cuadrícula : 4 ;
-    fila de cuadrícula : 4 / tramo 5 ;
-}
-. cabecera-menu-inferior {
-    columna de cuadrícula : 2 / tramo 5 ;
-    fila de cuadrícula : 5 / tramo 6 ;
-    índice z : 1 ;
-    peso de fuente : 300 ;
-    margen superior : -30px;
-    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.651 );
-}
-. cabecera-menu-inferior-items {
-    estilo de lista : ninguno;
-    text-transform : mayúsculas;
-    color : blanco;
-    tamaño de fuente : 12 px ;
-    pantalla : en línea;
-}
-. cifras-destacadas-horizonte {
-    pantalla : cuadrícula;
-    columnas de plantilla de cuadrícula : 100 px automático 100 px ;
-    rejilla-plantilla-filas : auto auto auto 50 px ;
-    color de fondo : blanco;
-}
-. cifras-destacadas-titulo {
-    pantalla : cuadrícula;
-    color : gainboro;
-    text-transform : mayúsculas;
-    columna de cuadrícula : 2 / tramo 3 ;
-    fila de cuadrícula : 1 / tramo 2 ;
-    alineación de texto : centro;
-    margen : 5 % ;
-}
-. cifras-destacadas {
-    pantalla : cuadrícula;
-    columna de cuadrícula : 2 / tramo 3 ;
-    fila de cuadrícula : 2 / tramo 4 ;
-    margen : 20 px ;
-}
-. cifras-destacadas-cifra {
-    color : azul cielo;
-    peso de fuente : 700 ;
-    tamaño de fuente : xx-grande;
-    espaciado entre letras : 2 pt ;
-    espaciado entre palabras : 10 pt ;
-    fila de cuadrícula : 2 / tramo 3 ;
-    acolchado : 5 % ;
-}
-. cifras-destacadas-que-contenedor {
-    fila de cuadrícula : 3 / tramo 4 ;
-    acolchado : 5 % ;
-}
-. cifras-destacadas-que {
-    text-transform : mayúsculas;
-    color : gainboro;
-    peso de fuente : 400 ;
-    espaciado entre letras : 2 pt ;
-    espaciado entre palabras : 10 pt ;
-}
-. sostenibilidad-horizonte {
-    background-image: url( fotos/fotohorizonteatardecer.jpg);
-    repetición de fondo : no repetición;
-    pantalla : cuadrícula;
-    columnas de plantilla de cuadrícula : automático 30 %  30 %  30 % automático;
-    espacio entre columnas : 50 px ;
-    rejilla-plantilla-filas : 100 px  30 %  30 %  15 %  30 %  100 px ;
-    espacio entre filas : 75 px ;
-    ancho : 100 % ;
-}
-. sostenibilidad-titulo {
-    color : blanco;
-    text-transform : mayúsculas;
-    peso de fuente : 300 ;
-    columna de cuadrícula : 2 / tramo 5 ;
-    fila de cuadrícula : 2 / tramo 3 ;
-    alineación de texto : centro;
-}
-. sostenibilidad-bajada {
-    color : blanco;
-    peso de fuente : 400 ;
-    espaciado entre letras : 2 px ;
-    columna de cuadrícula : 2 / tramo 5 ;
-    fila de cuadrícula : 2 / tramo 3 ;
-    alinear-contenido : centro;
-}
-. imagen-sostenibilidad-1 {
-    índice z : 2 ;
-    pantalla : cuadrícula;
-    objeto de ajuste : cubierta;
-    columna de cuadrícula : 2 / tramo 3 ;
-    fila de cuadrícula : 3 / tramo 4 ;
-}
-. imagen-sostenibilidad-2 {
-    índice z : 2 ;
-    pantalla : cuadrícula;
-    objeto de ajuste : cubierta;
-    columna de cuadrícula : 3 / tramo 4 ;
-    fila de cuadrícula : 3 / tramo 4 ;
-}
-. imagen-sostenibilidad-3 {
-    índice z : 2 ;
-    pantalla : cuadrícula;
-    objeto de ajuste : cubierta;
-    columna de cuadrícula : 4 / tramo 5 ;
-    fila de cuadrícula : 3 / tramo 4 ;
-}
-. sostenibilidad-parrafo {
-    color : blanco;
-    peso de fuente : 400 ;
-    espaciado entre letras : 2 px ;
-    columna de cuadrícula : 2 / tramo 5 ;
-    fila de cuadrícula : 4 / tramo 5 ;
-    alinear-contenido : centro;
-}
-. sostenibilidad-link {
-    color : blanco;
-    peso de fuente : 400 ;
-    espaciado entre letras : 2 px ;
-    alinear-contenido : centro;
-    columna de cuadrícula : 2 / tramo 5 ;
-    fila de cuadrícula : 5 / tramo 6 ;
-}
-. sostenibilidad-a {
-    color de fondo : rgba ( 0 ,  0 ,  0 ,  0.644 );
+.fecha {
+    color:gris;
+    tamaño de fuente :12px;
     text-transform : mayúsculas;
 }
-. horizonte-gris {
-    color de fondo : gainboro;
-    acolchado : 5 % ;
-}
-. destacado-titulo {
-    color : negro;
-    text-transform : mayúsculas;
-    peso de fuente : 300 ;
-}
-. destacado {
-    color de fondo : blanco;
-    acolchado superior : 3 % ;
-    fondo acolchado : 3 % ;
-}
-. destacamos-imagen {
-    ancho : 30 % ;
-    altura : 70 % ;
-    alinear-contenido : flex-start;
-    objeto de ajuste : cubierta;
-    alineación de texto : derecha;
-    flotar : izquierda;
-    margen superior : -3 % ;
-    margen inferior : -3 % ;
-    margen derecho : 5 % ;
-}
-. prensa-cuerpo {
-    color de fondo : blanco;
-    acolchado superior : 3 % ;
-    fondo acolchado : 3 % ;    
-}
-prensa-imagen {
-    flotar : izquierda;
-    ancho : 0,5 % ;
-    altura : 0,3 % ;
-    objeto de ajuste : cubierta;
-}
-. prensa-escritura {
-    flotar : derecha;
+.cabecera-conteiner {
+    pantalla:cuadrícula;
+    columnas de plantilla de cuadrícula:1fr 15% 70% 1fr;
+    filas-plantilla-cuadrícula:7% 79% 14%;
+    rejilla-columna:1/5;
+    rejilla-fila :1/4;
+    background-image: url(fotos/)
+    ajuste de objeto:contener;
+    tamaño de fondo:100%automático;
 }
