@@ -6,12 +6,12 @@
     --celeste-color:rgb(48,209,242);
 }
 .title {
-    text-transform:capitalize;
+    text-transform:uppercase;
     font-weight:300;
     font-size:24px;
 }
 .title-2 {
-    text-transform:capitalize;
+    text-transform:uppercase;
     font-weight:300;
     font-size:20px;
 }
@@ -22,7 +22,7 @@
 .fecha {
     color:grey;
     font-size:12px;
-    text-transform:capitalize;
+    text-transform:uppercase;
 }
 .cabecera-conteiner {
     display:grid;
@@ -56,7 +56,7 @@
     letter-spacing:2px;
     letter-spacing:5px;
     margin-right:10%;
-    text-transform:capitalize;
+    text-transform:uppercase;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -91,7 +91,7 @@
     flex-wrap:wrap;
 }
 .menu-superior-items  a {
-    text-transform:capitalize;
+    text-transform:uppercase;
     letter-spacing:2px;
     color:white;
     text-decoration:none;
@@ -115,7 +115,7 @@
     color:white;
     font-size:12px;
     font-weight:700;
-    text-transform:capitalize;
+    text-transform:uppercase;
     text-decoration:none;
     text-align:left;
     margin:5%;
@@ -228,7 +228,7 @@ b {
 }
 .sostenibilidad-link  a {
     text-decoration:none;
-    text-transform:capitalize;
+    text-transform:uppercase;
     color:white;
     background-color:rgba(0,0,0,0.699);
     padding:3%;
