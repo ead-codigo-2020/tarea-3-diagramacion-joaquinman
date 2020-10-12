@@ -22,16 +22,15 @@
 .fecha {
     color:grey;
     font-size:12px;
-    text-transform :capitalize;
+    text-transform:capitalize;
 }
 .cabecera-conteiner {
     display:grid;
     grid-template-columns:1fr 15% 70% 1fr;
-    grid-:7% 79% 14%;
+    grid:7% 79% 14%;
     grid-column:1/5;
-    row-rack:1/4;
-    background-image: url(fotos)
-    object-fit;
+    row-gap:1/4;
+    background-image:url(fotos/fotopuertodesdelaaltura.jpg)
     background-size:100%auto;
 }
 .logo-cabecera {
@@ -64,16 +63,16 @@
 }
 .buscador {
     grid-row:3/4;
-    justify:correct;
+    justify:right;
     width:300px;
     padding:1%;
-    max-heidth:20px;
+    max-height:20px;
 }
 .buscador-menu {
-    fondo : ninguno;
-    borde : ninguno;
-    borde inferior : 1 px blanco;
-    color : blanco;
+    background:none;
+    border:none;
+    border-bottom-style:1px;
+    color:white;
 }
 .menu-superior {
     grid-column:3/4;
@@ -94,7 +93,7 @@
 .menu-superior-items  a {
     text-transform:capitalize;
     letter-spacing:2px;
-    color : blanco;
+    color:white;
     text-decoration:none;
 }
 .cabecera-menu-inferior {
@@ -121,7 +120,7 @@
     text-align:left;
     margin:5%;
     letter-spacing:2px;
-    color-edge:rgba(255,255,255,0.705);
+    border-color:rgba(255,255,255,0.705);
 }
 .titulacion {
     display:grid;
@@ -171,14 +170,14 @@ b {
     font-size:30px;
     color:var(--light-blue-color);
 }
-. cifra-2 {
+.cifra-2 {
     color:grey;
 }
 .sostenibilidad-horizonte {
     width:100 %;
     height:100 %;
     backdrop-filter:url(commonfilters.svg#filter);
-    background-image: url(fotos/);
+    background-image:url(fotohorizonteatardecer.jpg)
     background-repeat:no-repeat;
     object-fit:cover;
     background-size: 100%auto;
@@ -187,6 +186,10 @@ b {
 .sostenibilidad-t {
     color:white;
     text-align:center;    
+}
+.sostenibilidad {
+    width:20%;
+    height:33,33%;
 }
 .sostenibilidad-bajada {
     font-size:15px;
@@ -197,14 +200,17 @@ b {
     width:70ch;
     margin-bottom:5%;
 }
+.imagen-sostenibilidad {
+    object-fit:contain;
+    object-position:center;
+    align-self:top;
+    height:2fr;
+    width:100%;
+}
 .contenido-sostenibilidad {
     position:relative;
     display:flex;
     flex-direction:row;
-}
-.sostenibilidad {
-    width:20%;
-    height:33,33%;
 }
 .sostenibilidad  figcaption {
     color:white;
@@ -215,13 +221,6 @@ b {
     margin-top:3%;
     width:100%;
     height:1fr;
-}
-.imagen-sostenibilidad {
-    object-fit:contain;
-    object-position:center;
-    align-self:top;
-    height:2fr;
-    width:100%;
 }
 .sostenibilidad-link {
     margin:5%;
