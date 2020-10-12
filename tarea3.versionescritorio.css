@@ -180,7 +180,6 @@ b {
     backdrop-filter:url(commonfilters.svg#filter);
     background-image: url(fotos/);
     background-repeat:no-repeat;
-    filter:blur(5px);
     object-fit:cover;
     background-size: 100%auto;
     padding:10%;
