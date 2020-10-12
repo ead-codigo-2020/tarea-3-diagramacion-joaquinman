@@ -115,38 +115,38 @@
 .cabecera-menu-inferior-items  a {
     color : blanco;
     tamaño de fuente : 12 px ;
-    peso de fuente : 700 ;
-    text-transform : mayúsculas;
-    decoración de texto : ninguna;
-    alineación de texto : izquierda;
-    margen : 5 % ;
-    espaciado entre letras : 2 px ;
-    color del borde : rgba ( 255 ,  255 ,  255 ,  0.705 );
+    font-weight: 700 ;
+    text-transform :capitalize;
+    text-decoration:none;
+    text-align: izquierda;
+    margin:5%;
+    letter-spacing:2px;
+    color-edge:rgba(255,255,255,0.705);
 }
 .titulacion {
-    pantalla : cuadrícula;
-    columnas de plantilla de cuadrícula : 1 fr  50 %  25 %  300 px  1 fr ;
-    rejilla-plantilla-filas : 2 fr  2 fr  1 fr ;
-    rejilla-columna : 2 / 4 ;
-    rejilla-fila : 2 / 4 ;
-    fondo acolchado : 4 % ;
+    display:grid;
+    grid-template-columns:1fr 50% 25% 300px 1fr;
+    grid-template-rows:2fr 2fr 1fr;
+    grid-column:2/4;
+    grid-row:2/4;
+    background-padding:4%;
 }
 .titulacion  h1 {
-    claro : ambos;
-    color : blanco;
-    rejilla-columna : 2 / 3 ;
-    rejilla-fila : 2 / 3 ;
-    tamaño de fuente : 3,5 em ;
-    peso de fuente : 400 ;
+    clear:both;
+    color:white
+    grid-column:2/3;
+    grid-row:2/3;
+    font-size:3,5;
+    font-weight:400;
 }
 b {
-    peso de fuente : 700 ;
+    font-weight:700;
 }
 .cabecera-link {
-    color : blanco;
-    claro : ambos;
-    rejilla-columna : 4 / 5 ;
-    rejilla-fila : 3 / 5 ;
+    color:white;
+    clear:both;
+    grid-column:4/5;
+    grid-row:3/5;
 }
 .cifras-destacadas-container {
     padding:3%;
@@ -180,7 +180,7 @@ b {
     backdrop-filter:url(commonfilters.svg#filter);
     background-image: url(fotos/);
     background-repeat:no-repeat;
-    filtro-de-fondo :blur(5px);
+    filtro-de-fondo:blur(5px);
     object-fit:cover;
     background-size: 100%auto;
     padding:10%;
@@ -196,7 +196,7 @@ b {
     text-align:center;
     clear:both;
     width:70ch;
-    margin-bottom: 5 % ;
+    margin-bottom:5%;
 }
 .contenido-sostenibilidad {
     position:relative;
@@ -214,7 +214,7 @@ b {
     letter-spacing:2px;
     clear:both;
     margin-top:3%;
-    width: ;:100%;
+    width:100%;
     height:1fr;
 }
 .imagen-sostenibilidad {
