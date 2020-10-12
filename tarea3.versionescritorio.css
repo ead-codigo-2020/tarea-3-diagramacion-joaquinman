@@ -92,33 +92,33 @@
     envoltura flexible : envoltura;
 }
 .menu-superior-items  a {
-    text-transform : mayúsculas;
-    espaciado entre palabras : 2 px ;
+    text-transform:capitalize;
+    letter-spacing:2px;
     color : blanco;
-    decoración de texto : ninguna;
+    text-decoration:none;
 }
 .cabecera-menu-inferior {
-    rejilla-columna : 1 / 5 ;
-    rejilla-fila : 3 / 4 ;
-    alinear-contenido : centro;
-    pantalla : flex;
-    dirección flexible : fila;
-    índice z : 2 ;
-    padding-left : 1 % ;
+    grid-column:1/5;
+    grid-row:3/4;
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    z-index:2;
+    padding-left:1%;
 }
 .cabecera-menu-inferior-items {
-    rejilla-columna : 2 / 4 ;
-    estilo de lista : ninguno;
-    acolchado : 2 % ;
-    fondo acolchado : 3 % ;
+    grid-column:2/4;
+    list-style:none;
+    padding:2%;
+    padding-background:3%;
 }
 .cabecera-menu-inferior-items  a {
-    color : blanco;
-    tamaño de fuente : 12 px ;
-    font-weight: 700 ;
-    text-transform :capitalize;
+    color:white;
+    font-size:12px;
+    font-weight:700;
+    text-transform:capitalize;
     text-decoration:none;
-    text-align: izquierda;
+    text-align:left;
     margin:5%;
     letter-spacing:2px;
     color-edge:rgba(255,255,255,0.705);
@@ -129,7 +129,7 @@
     grid-template-rows:2fr 2fr 1fr;
     grid-column:2/4;
     grid-row:2/4;
-    background-padding:4%;
+    background-position:4%;
 }
 .titulacion  h1 {
     clear:both;
@@ -180,7 +180,7 @@ b {
     backdrop-filter:url(commonfilters.svg#filter);
     background-image: url(fotos/);
     background-repeat:no-repeat;
-    filtro-de-fondo:blur(5px);
+    filter:blur(5px);
     object-fit:cover;
     background-size: 100%auto;
     padding:10%;
